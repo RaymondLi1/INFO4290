@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8955381204994302529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8955381204994302535}
+  - component: {fileID: 8955381204994302528}
+  - component: {fileID: 6852422145413457710}
+  m_Layer: 0
+  m_Name: GameSaveManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8955381204994302535
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955381204994302529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.6345515, y: -1.1428753, z: 0.18448514}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8955381204994302528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955381204994302529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bccb70e0c0be745419488950b0bcd1f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 11400000, guid: 99739d6e90122c04b993be0ff04f403b, type: 2}
+  - {fileID: 11400000, guid: 3c851462f4435c74bbe1a82a4a0e7aaf, type: 2}
+  - {fileID: 11400000, guid: 09c71cceb6625fe4f8b27f2deeec59ae, type: 2}
+  - {fileID: 11400000, guid: 81f2ea60ccc06394abdb6032cb90ae10, type: 2}
+  - {fileID: 11400000, guid: f497254262c4cdb4698858114e66bd23, type: 2}
+  - {fileID: 11400000, guid: 37b8ee37966d8b841a91fe297daf8283, type: 2}
+  - {fileID: 11400000, guid: 47df485c42aa4b34c83eb5c901bea8ce, type: 2}
+  - {fileID: 11400000, guid: b7f0a5afeabff48439973a5be0fddaa5, type: 2}
+  - {fileID: 11400000, guid: d5c4e3b9169a76e49ac3dc63ce88bd64, type: 2}
+  - {fileID: 11400000, guid: 47dada44a29a0224e975145871d91fae, type: 2}
+  - {fileID: 11400000, guid: 8d3030ba4a7cb0e4e8b32dcf66dc3a46, type: 2}
+  - {fileID: 11400000, guid: 54f40d276fd48e244999fd7283739159, type: 2}
+  - {fileID: 11400000, guid: 58778af1fe3ee714090fbe1acf463e31, type: 2}
+  - {fileID: 11400000, guid: d889b8f1b934ffa4c861f001f8976393, type: 2}
+  - {fileID: 11400000, guid: 8b4f4b1990b38cd4894bcd86712f69f6, type: 2}
+  - {fileID: 11400000, guid: c24b7209ce001384e97601e50a079fa7, type: 2}
+  - {fileID: 11400000, guid: 46e428f25b7fa904980dec79c0c9eb82, type: 2}
+--- !u!114 &6852422145413457710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8955381204994302529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c798efe4951dd44fab2091a29a13db5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myInventory: {fileID: 11400000, guid: 399fd68b10eb1ea4c8dded36df1cf99a, type: 2}
+  ItemDB: {fileID: 11400000, guid: 1b7217495a1032943a1cffd12d5553f6, type: 2}
+  saveType: 0

@@ -1,0 +1,639 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1681248639591971, "dur":1530, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639593511, "dur":129, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1681248639593680, "dur":26, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1681248639593706, "dur":661, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1681248639594413, "dur":897, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639595310, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805102, "dur":354, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805456, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805467, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805469, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805478, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805480, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805486, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805488, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805494, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805496, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805502, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805504, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805510, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805512, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805517, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805519, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805525, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805527, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805534, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805537, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805542, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805544, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805550, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805552, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805557, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805571, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639805599, "dur":2873, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1681248639594728, "dur":588, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639595317, "dur":8521, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639603857, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681248639603861, "dur":488, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639604351, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681248639604355, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639610980, "dur":2711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1681248639613692, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681248639613862, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639613869, "dur":4584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1681248639618523, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681248639618656, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639625711, "dur":117685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":1, "ts":1681248639743465, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639743595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639743602, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639748030, "dur":161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639748195, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639748202, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639751682, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639751762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639751769, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639755369, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639755475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639755481, "dur":5093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639760696, "dur":1122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639761856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639761865, "dur":3084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639765042, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639765264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639765270, "dur":4104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639769429, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639769491, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639769500, "dur":3362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639772930, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639773186, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639773243, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639776774, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639776857, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639776865, "dur":3196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639780143, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639780216, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639780222, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":1, "ts":1681248639784535, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1681248639784807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639785620, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":1, "ts":1681248639787760, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681248639787847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1681248639787854, "dur":17156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":1, "ts":1681248639805064, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1681248639805066, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639594733, "dur":586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639595319, "dur":8524, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639603858, "dur":320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681248639604181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639607606, "dur":4861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1681248639612558, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681248639612742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639614968, "dur":11604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1681248639626630, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639626690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639626695, "dur":109275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639736056, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639736206, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639736217, "dur":8613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639744930, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639745011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639745019, "dur":3681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639748780, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639748882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639748887, "dur":3304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639752269, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639752365, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639752372, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639755985, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639756063, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639756070, "dur":7380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639763522, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639763833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639763947, "dur":4800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639768827, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639769050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639769059, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639772178, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639772385, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639772391, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639775619, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639775697, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639775704, "dur":3728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639779510, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639779747, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639779756, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639783447, "dur":563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639784013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639784022, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1681248639786278, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681248639786356, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639786364, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681248639789186, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681248639789257, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1681248639789263, "dur":10420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1681248639799740, "dur":5362, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639594772, "dur":552, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639595324, "dur":8520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639603857, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681248639604096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639607616, "dur":5174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681248639612878, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681248639613037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639614719, "dur":112513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1681248639727354, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639727463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639727469, "dur":13158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639740834, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639740894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639740899, "dur":5383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639746432, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639746498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639746503, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639749976, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639750042, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639750048, "dur":3743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639753961, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639754057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639754157, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639757984, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639758071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639758078, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639764839, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639765081, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639765087, "dur":3667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639768848, "dur":881, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639769733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639769740, "dur":3525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639773329, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639773540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639773547, "dur":4275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639777896, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639778035, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639778041, "dur":10445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1681248639788614, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681248639788733, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639788740, "dur":6557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1681248639795372, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1681248639795463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1681248639795470, "dur":6543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1681248639802066, "dur":3042, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639594807, "dur":521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639595328, "dur":8513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639603858, "dur":365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681248639604226, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639608270, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1681248639612644, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681248639612974, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639614715, "dur":15729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1681248639630541, "dur":127, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639630672, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639630682, "dur":105195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639735950, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639736034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639736042, "dur":6881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639743002, "dur":474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639743591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639743599, "dur":4729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639748381, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639748504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639748510, "dur":3356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639751956, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639752065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639752071, "dur":4220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639756361, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639756437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639756443, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639760254, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639761108, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639761119, "dur":3172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639764376, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639764663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639764671, "dur":3061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639767816, "dur":580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639768400, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639768408, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639771579, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639771833, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639771839, "dur":3198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639775112, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639775240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639775272, "dur":4722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639780072, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639780146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639780154, "dur":4144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639784398, "dur":4517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639788918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639790341, "dur":2505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":4, "ts":1681248639792939, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681248639793048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639793059, "dur":2645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681248639795794, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681248639795872, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1681248639795880, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1681248639799848, "dur":5282, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639594836, "dur":497, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639595333, "dur":8522, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639603856, "dur":444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681248639604303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639610131, "dur":3623, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1681248639613820, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639614061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639614557, "dur":10256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639624882, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639624962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639625925, "dur":114026, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639740028, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639740129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639740138, "dur":6171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639746405, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639746484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639746491, "dur":3801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639750388, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639750500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639750512, "dur":4191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639754773, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639754842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639754849, "dur":3960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639758977, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639759082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639759088, "dur":2811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639762347, "dur":328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639762679, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639762685, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639766088, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639766306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639766313, "dur":3633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639770027, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639770107, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639770116, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639773514, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639773593, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639773599, "dur":3937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639777625, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639777728, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639777735, "dur":3738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639781554, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639781772, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639781817, "dur":7054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1681248639788975, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681248639789228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639789234, "dur":4513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1681248639793830, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1681248639793904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1681248639793910, "dur":4544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level3" }}
+,{ "pid":12345, "tid":5, "ts":1681248639798525, "dur":6598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639594870, "dur":470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639595340, "dur":8500, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639603858, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1681248639604268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639608812, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":6, "ts":1681248639615441, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681248639615532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639615537, "dur":10365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290.exe" }}
+,{ "pid":12345, "tid":6, "ts":1681248639625972, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639626064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639626149, "dur":109810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639736052, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639736134, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639736140, "dur":7754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639743980, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639744058, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639744064, "dur":4346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639748488, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639748786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639748795, "dur":4813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639753720, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639753825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639753833, "dur":3336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639757316, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639757398, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639757405, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639761240, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639761623, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639761629, "dur":3140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639764854, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639765100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639765110, "dur":3749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639768963, "dur":1588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639770554, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639770560, "dur":7219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639777865, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639778070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639778077, "dur":3562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639781707, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639781807, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639781817, "dur":5867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1681248639787753, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681248639787835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639787841, "dur":5481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1681248639793406, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1681248639793484, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639793492, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level4" }}
+,{ "pid":12345, "tid":6, "ts":1681248639797005, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1681248639797244, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1681248639797259, "dur":2144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1681248639799481, "dur":5624, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639594897, "dur":447, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639595344, "dur":8513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639603857, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681248639604100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639607540, "dur":5872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1681248639613507, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681248639613675, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639614745, "dur":15721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1681248639630586, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639630690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639630698, "dur":102615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639733379, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639733433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639733440, "dur":8947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639742471, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639742570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639742579, "dur":3874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639746532, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639746632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639746640, "dur":2925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639749619, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639749674, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639749681, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639753721, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639753800, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639753807, "dur":3678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639757550, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639757628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639757634, "dur":4449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639762435, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639762716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639762724, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639766523, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639766781, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639766791, "dur":3949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639770823, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639770894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639770901, "dur":3448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639774603, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639774746, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639774754, "dur":3479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639778320, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639778409, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639778416, "dur":5826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639784319, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639784811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639784820, "dur":3022, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1681248639787906, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681248639787973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639787979, "dur":6275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1681248639794336, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1681248639794418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1681248639794425, "dur":3614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1681248639798130, "dur":6968, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639595064, "dur":284, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639595349, "dur":8512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639603865, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1681248639604263, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639607782, "dur":5891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1681248639613743, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1681248639613888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639613895, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1681248639620169, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639620231, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639625888, "dur":110077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639736159, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639736223, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639736227, "dur":8734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639745054, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639745191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639745200, "dur":3381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639748671, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639748768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639748776, "dur":3846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639752814, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639752889, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639752895, "dur":4192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639757163, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639757229, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639757236, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639761971, "dur":223, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639762198, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639762205, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639766245, "dur":1382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639767631, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639767640, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639771807, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639772136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639772143, "dur":4025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639776349, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639776429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639776437, "dur":3816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639780323, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639780396, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639780403, "dur":4244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1681248639784726, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1681248639784808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639784815, "dur":2591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1681248639787478, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1681248639787550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639787557, "dur":8807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1681248639796467, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1681248639796611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1681248639796620, "dur":2905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1681248639799601, "dur":5506, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639595091, "dur":262, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639595354, "dur":8515, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639603869, "dur":371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1681248639604271, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639609132, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1681248639613407, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681248639613573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639614728, "dur":16025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1681248639630838, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639727227, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639727240, "dur":13013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639740329, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639740418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639740428, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639746533, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639746943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639746950, "dur":3349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639750420, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639750653, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639750659, "dur":3441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639754204, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639754295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639754301, "dur":3543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639757914, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639758262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639758268, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639761843, "dur":604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639762451, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639762457, "dur":4139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639766667, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639766867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639766874, "dur":3812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639770755, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639770831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639770838, "dur":3541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639774453, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639774554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639774561, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639778510, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639778809, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639778820, "dur":4671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639783647, "dur":634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639784285, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639784291, "dur":2736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":9, "ts":1681248639787100, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":9, "ts":1681248639787176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639787182, "dur":6525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":9, "ts":1681248639795225, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1681248639795430, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1681248639795438, "dur":3705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1681248639799222, "dur":5903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639595122, "dur":236, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639595358, "dur":8494, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639603858, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1681248639604170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639607861, "dur":5902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1681248639613834, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639613985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639614570, "dur":113392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639728058, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639728146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639728153, "dur":14523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639742788, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639742882, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639742890, "dur":4924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639747913, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639747989, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639747996, "dur":3376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639751447, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639751531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639751538, "dur":3724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639755334, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639755417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639755425, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639759056, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639759287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639759294, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639762451, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639762750, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639762756, "dur":2636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639765459, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639765712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639765719, "dur":3503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639769306, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639769386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639769393, "dur":2716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639772192, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639772425, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639772431, "dur":2957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639775472, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639775572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639775579, "dur":3694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639779372, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639779479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639779487, "dur":5318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1681248639784887, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":10, "ts":1681248639784957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639784963, "dur":2525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":10, "ts":1681248639787613, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1681248639787821, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1681248639787827, "dur":9426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1681248639797348, "dur":7752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639595143, "dur":219, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639595363, "dur":8484, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639603860, "dur":423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681248639604287, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639609819, "dur":3973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1681248639613851, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639614002, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639614007, "dur":113759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639727864, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639727962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639727970, "dur":12664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639740721, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639740802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639740807, "dur":5213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639746195, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639746309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639746320, "dur":4067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639750447, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639750530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639750537, "dur":4110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639754730, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639754794, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639754800, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639758761, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639758872, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639758878, "dur":6875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639765831, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639766053, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639766060, "dur":3271, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639769407, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639769951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639769959, "dur":3195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639773235, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639773510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639773516, "dur":4000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639777602, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639777665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639777674, "dur":3264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639781010, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639781118, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639781130, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":11, "ts":1681248639784574, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1681248639784664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639784779, "dur":1717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1681248639786618, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681248639786695, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639786701, "dur":2371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":11, "ts":1681248639789143, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1681248639789430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639789437, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1681248639795224, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1681248639795332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1681248639795340, "dur":3646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1681248639799057, "dur":6068, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639595168, "dur":199, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639595367, "dur":8479, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639603858, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681248639604172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639607529, "dur":6853, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1681248639614586, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1681248639615433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639615440, "dur":112608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1681248639728125, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639728191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639728199, "dur":15163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639743417, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639743584, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639743593, "dur":3890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639747581, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639747663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639747671, "dur":3426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639751183, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639751267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639751304, "dur":4573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639755963, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639756148, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639756154, "dur":4698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639760949, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639761025, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639761034, "dur":3527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639764642, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639764867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639764874, "dur":3929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639768871, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639769187, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639769194, "dur":3872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639773330, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639773491, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639773498, "dur":13857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1681248639787430, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681248639787550, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1681248639787565, "dur":14759, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/raymo/OneDrive/Desktop/Kenneth's Adventure - Demo/INFO 4290_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1681248639802375, "dur":2748, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1681248639810233, "dur":2592, "ph":"X", "name": "ProfilerWriteOutput" }
+,
